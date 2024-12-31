@@ -1,0 +1,8 @@
+
+function delete_alert(e){
+   if(!window.confirm('削除します。よろしいですか？(この操作は取り消せません）')){
+      window.alert('キャンセルされました'); 
+      return false;
+   }
+   document.deleteform.submit();
+};
